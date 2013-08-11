@@ -6,19 +6,25 @@ Adrian Sanabria-Diaz July 30, 2013
 Version 1.0
 Email: sanabriadiae@lopers.unk.edu, sigmacts@gmail.com
 
+Software Information: 
+
 1. Python is a programming language. We will be using version 2.7.5
-2. SciPy (pronounced “Sigh Pie”) is an open source library of algorithms and mathematical tools  for the Python programming language
-3. NumPy is an extension to the Python programming language, adding support for large, multi-dimensional arrays and matrices, along 
+2. SciPy (pronounced “Sigh Pie”) is an open source library of algorithms and mathematical tools  for the 
+	Python programming language
+3. NumPy is an extension to the Python programming language, adding support for large, multi-dimensional 
+	arrays and matrices, along 
 with a large library of high-level mathematical functions to operate on these arrays
-4. GitHub provides social networking functionality such as feeds, followers and the social network graph to display how developers work 
-on their versions of a repository. It also makes it a lot easier to share code, and follow the Pyhon code as it's being edited.
+4. GitHub provides social networking functionality such as feeds, followers and the social network graph to 
+	display how developers work 
+on their versions of a repository. It also makes it a lot easier to share code, and follow the Pyhon code as 
+	it's being edited.
 5. 7-zip
 6. zlib
 
 =================================================================================================================================================
 =================================================================================================================================================
 =================================================================================================================================================
-Just follow the steps. These instructions are for Windows 7
+Just follow the steps. These instructions are for Windows 7 64-bit editions.
 
 1. Download 'Python 2.7.5 Windows X86 Installer' from http://www.python.org/download/
   
