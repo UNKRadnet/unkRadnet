@@ -64,8 +64,11 @@ Just follow the steps. These instructions are for Windows 7 64-bit editions.
 	https://sourceforge.net/projects/sevenzip/files/7-Zip/9.20/7z920-x64.msi/download?use_mirror=iweb
 		
 		i. Run it like any other program, install, etc. 
+		
+	b. Download zlip package from 
+	https://sourceforge.net/projects/gnuwin32/files/zlib/1.2.3/zlib-1.2.3.exe/download?use_mirror=iweb&download=
 
-	b. Download MinGW w64 from sourcefourge/net/projects/mingw0w64/?source=dlp
+	c. Download MinGW w64 from sourcefourge/net/projects/mingw0w64/?source=dlp
 	
 ================================================================================================================
 
