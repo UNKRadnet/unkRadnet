@@ -1,0 +1,71 @@
+=================================================================================================================================================
+Hello everybody. These are the instructions to get Python 2.7, Scipy, and Numpy, and GitHub working on
+your Windows 7 machine.
+System Requirements: Windows 7, 64 bit (These programs are 32 bit and are compatible)
+Adrian Sanabria-Diaz July 30, 2013
+Version 1.0
+Email: sanabriadiae@lopers.unk.edu, sigmacts@gmail.com
+
+1. Python is a programming language. We will be using version 2.7.5
+2. SciPy (pronounced “Sigh Pie”) is an open source library of algorithms and mathematical tools  for the Python programming language
+3. NumPy is an extension to the Python programming language, adding support for large, multi-dimensional arrays and matrices, along 
+with a large library of high-level mathematical functions to operate on these arrays
+4. GitHub provides social networking functionality such as feeds, followers and the social network graph to display how developers work 
+on their versions of a repository. It also makes it a lot easier to share code, and follow the Pyhon code as it's being edited.
+5. 7-zip
+6. zlib
+
+=================================================================================================================================================
+=================================================================================================================================================
+=================================================================================================================================================
+Just follow the steps. These instructions are for Windows 7
+
+1. Download 'Python 2.7.5 Windows X86 Installer' from http://www.python.org/download/
+  
+	a.Make sure it's not the X64
+	
+	b.Run and Install
+	
+	c.Once installed, go to Step 2.
+
+
+2. Download Numpy and SciPy from the following: http://www.scipy.org/scipylib/download.html
+	
+	a. Run Scipy FIRST. Should be called 'scipy-0.12.0-win32-superpack-python2.7.exe' from
+		https://sourceforge.net/projects/scipy/files/
+	
+	b. Make sure it finds Python 2.7 directory correctly, if it doesn't, you didn't download
+		the correct Python program. Go back to step 1.
+	
+	c. Run the Numpy downloader. Should be redirected to https://sourceforge.net/projects/numpy/files/
+	
+3. This might be recursive or redundant if you've already installed GitHub (since this might end up in GitHub) 
+	but if you haven't, go to https://help.github.com/articles/set-up-git and run the Windows installer.
+	
+	a. Create an account first.
+	
+	b. Become friends Joshua (nofacade) or myself (sigmaenigma) to get the repositories (copy of the code)
+		on your computer to edit or what have you.
+		
+4. This is setting up zlib for Windows users. Quite a bit easier in Linux, but here we go with Windows 64-bit instructions. 
+	
+	a. Download 7-zip to "untar" .tar files in Windows: https://sourceforge.net/projects/sevenzip/files/7-Zip/9.20/7z920-x64.msi/download?use_mirror=iweb
+		
+		i. Run it like any other program, install, etc. 
+
+	b. Download MinGW w64 from sourcefourge/net/projects/mingw0w64/?source=dlp
+	
+=================================================================================================================================================
+=================================================================================================================================================
+=================================================================================================================================================		
+This should be everything. No just learn GitHub so you know how to upload/download and edit the Python code. 
+Oh and you'll have to learn Python as well which I'm currently doing. Josh provided the following links.
+
+Learn Python:	http://learnpythonthehardway.org/
+Learn SQL:		http://sql.learncodethehardway.org/
+	
+
+
+
+
+	
