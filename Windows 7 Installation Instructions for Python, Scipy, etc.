@@ -1,4 +1,5 @@
-=================================================================================================================================================
+=================================================================================================================
+
 Hello everybody. These are the instructions to get Python 2.7, Scipy, and Numpy, and GitHub working on
 your Windows 7 machine.
 System Requirements: Windows 7, 64 bit (These programs are 32 bit and are compatible)
@@ -21,9 +22,12 @@ on their versions of a repository. It also makes it a lot easier to share code, 
 5. 7-zip
 6. zlib
 
-=================================================================================================================================================
-=================================================================================================================================================
-=================================================================================================================================================
+================================================================================================================
+
+================================================================================================================
+
+================================================================================================================
+
 Just follow the steps. These instructions are for Windows 7 64-bit editions.
 
 1. Download 'Python 2.7.5 Windows X86 Installer' from http://www.python.org/download/
@@ -53,17 +57,23 @@ Just follow the steps. These instructions are for Windows 7 64-bit editions.
 	b. Become friends Joshua (nofacade) or myself (sigmaenigma) to get the repositories (copy of the code)
 		on your computer to edit or what have you.
 		
-4. This is setting up zlib for Windows users. Quite a bit easier in Linux, but here we go with Windows 64-bit instructions. 
+4. This is setting up zlib for Windows users. Quite a bit easier in Linux, but here we go with Windows 64-bit 
+	instructions. 
 	
-	a. Download 7-zip to "untar" .tar files in Windows: https://sourceforge.net/projects/sevenzip/files/7-Zip/9.20/7z920-x64.msi/download?use_mirror=iweb
+	a. Download 7-zip to "untar" .tar files in Windows: 
+	https://sourceforge.net/projects/sevenzip/files/7-Zip/9.20/7z920-x64.msi/download?use_mirror=iweb
 		
 		i. Run it like any other program, install, etc. 
 
 	b. Download MinGW w64 from sourcefourge/net/projects/mingw0w64/?source=dlp
 	
-=================================================================================================================================================
-=================================================================================================================================================
-=================================================================================================================================================		
+================================================================================================================
+
+================================================================================================================
+
+================================================================================================================
+
+		
 This should be everything. No just learn GitHub so you know how to upload/download and edit the Python code. 
 Oh and you'll have to learn Python as well which I'm currently doing. Josh provided the following links.
 
