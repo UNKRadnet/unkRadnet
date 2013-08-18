@@ -75,7 +75,13 @@ instructions.
 		
 		i.		Right click on this file once it's downloaded, and click "7-Zip", extract.
 		ii.		Open the new folder and right click again. Click "extract here"
-		iii.	Now open that folder and I still need to figure out how to build this in windows. 
+		iii. 	To install a downloaded toolchain package, just unzip it to a directory of your choice 
+				(for example C:\mingw-w64-v2.0.8). (Or whatever version it becomes) Then you need to 
+				add the toolchain executables to PATH. For cmd.exe, this would be:
+					
+						set PATH=C:\mingw-w64-v2.0.8\bin;%PATH%
+						
+			
 
 ================================================================================================================
 
