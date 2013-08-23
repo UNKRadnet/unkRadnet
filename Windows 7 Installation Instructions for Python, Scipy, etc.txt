@@ -3,13 +3,13 @@
 Hello everybody. These are the instructions to get Python 2.7, Scipy, and Numpy, and GitHub working on
 your Windows 7 machine.
 System Requirements: Windows 7, 64 bit (These programs are 32 bit and are compatible)
-Adrian Sanabria-Diaz July 30, 2013
+Adrian Sanabria-Diaz August 22, 2013
 Version 1.0
 Email: sanabriadiae@lopers.unk.edu, sigmacts@gmail.com
 
 Software Information:
 
-1.	Python is a programming language. We will be using version 2.7.5
+1.	Python is a programming language. We will be using version 2.7.5 which comes with Python(x,y)
 2.	SciPy (pronounced “Sigh Pie”) is an open source library of algorithms and mathematical tools for the
 	Python programming language
 3.	NumPy is an extension to the Python programming language, adding support for large, multi-dimensional
@@ -24,6 +24,12 @@ Software Information:
 6.	zlib is a library used for data compression.
 7.	MinGW-w64 project is a complete runtime environment for gcc to support binaries native to Windows 64-bit 
 	and 32-bit operating systems.
+8.	Python(x,y) is a free scientific and engineering development software for numerical computations, data analysis 
+	and data visualization based on Python programming language, Qt graphical user interfaces and Spyder interactive 
+	scientific development environment.
+9.	MSYS is a collection of GNU utilities such as bash, make, gawk and grep to allow building of applications 
+	and programs which depend on traditionally UNIX tools to be present. It is intended to supplement MinGW and the 
+	deficiencies of the cmd shell.
 
 ================================================================================================================
 
@@ -33,49 +39,64 @@ Software Information:
 
 Just follow the steps. These instructions are for Windows 7 64-bit editions.
 
-1. Download 'Python 2.7.5 Windows X86 Installer' from http://www.python.org/download/
-  
-	a.Make sure it's not the X64
 
-	b.Run and Install
+1. 	Download Python(x,y) from the following website: https://code.google.com/p/pythonxy/wiki/Downloads?tm=2  
+	This comes prepackaged with Numpy and Scipy. Make sure all previous versions of Python are uninstalled.
+	
+2.	This might be recursive or redundant if you've already installed GitHub (since this might end up in GitHub)
+		but if you haven't, go to https://help.github.com/articles/set-up-git and run the Windows installer.
 
-	c.Once installed, go to Step 2.
+	a.	Create an account
 
+	b.	Become friends Joshua (nofacade) or myself (sigmaenigma) to get the repositories (copy of the code)
+			on your computer to edit or what have you.
 
-2. Download Numpy and SciPy from the following: http://www.scipy.org/scipylib/download.html
+3. 	Download zlip package from
+		https://sourceforge.net/projects/gnuwin32/files/zlib/1.2.3/zlib-1.2.3.exe/download?use_mirror=iweb&download=
 
-	a. Run Scipy FIRST. Should be called 'scipy-0.12.0-win32-superpack-python2.7.exe' from
-	https://sourceforge.net/projects/scipy/files/
-
-	b. Make sure it finds Python 2.7 directory correctly, if it doesn't, you didn't download
-	the correct Python program. Go back to step 1.
-
-	c. Run the Numpy downloader. Should be redirected to https://sourceforge.net/projects/numpy/files/
-
-3. This might be recursive or redundant if you've already installed GitHub (since this might end up in GitHub)
-but if you haven't, go to https://help.github.com/articles/set-up-git and run the Windows installer.
-
-	a. Create an account first.
-
-	b. Become friends Joshua (nofacade) or myself (sigmaenigma) to get the repositories (copy of the code)
-	on your computer to edit or what have you.
-
-4. This is setting up zlib for Windows users. Quite a bit easier in Linux, but here we go with Windows 64-bit
-instructions.
-
-	a. Download 7-zip to "untar" .tar files in Windows:
-	https://sourceforge.net/projects/sevenzip/files/7-Zip/9.20/7z920-x64.msi/download?use_mirror=iweb
+4.	Download 7-zip to "untar" .tar files in Windows:
+		https://sourceforge.net/projects/sevenzip/files/7-Zip/9.20/7z920-x64.msi/download?use_mirror=iweb
 		
-		i. Run it like any other program, install, etc.
+	a.	Run it like any other program, install, etc.
+	
+5.	Download MinGW from the following website: http://sourceforge.net/projects/mingw/?source=dlp
 
-	b. Download zlip package from
-	https://sourceforge.net/projects/gnuwin32/files/zlib/1.2.3/zlib-1.2.3.exe/download?use_mirror=iweb&download=
+	a. Install
+			
+	b. Continue
+	
+	c. It will automatically open.
+	
+	d. Check all the boxes in the Basic Setup portion.  Then click installation and apply changes and then 'Apply' again.
 
-	c. Download MinGW w64 from https://sourceforge.net/projects/mingw-w64/?source=dlp
+6. Download MSYS: 
+
+	a.	Install MSYS 1.0.11. from http://downloads.sourceforge.net/mingw/MSYS-1.0.11.exe You can install it in C:\msys\1.0, 
+			or you can use any directory that you prefer.
 		
-		i.		Right click on this file once it's downloaded, and click "7-Zip", extract.
-		ii.		Open the new folder and right click again. Click "extract here"
-		iii. 	To install a downloaded toolchain package, just unzip it to a directory of your choice 
+	b.	Open and click Next, Yes, Next, Next, Next, Install
+	
+	c.	Download and Install MSYS DTK 1.0 in C:\msys\1.0. from http://downloads.sourceforge.net/mingw/msysDTK-1.0.1.exe
+	
+	d.	Download and Install the "2MB" MSYS Core 1.0.11. from 
+			http://sourceforge.net/projects/mingw/files/MSYS/Base/msys-core/msys-1.0.11/msysCORE-1.0.11-msys-1.0.11-base-src.tar.lzma/download
+			It is an archive. Untar (7-zip) it in C:\msys\1.0.
+
+5.	Download MinGW w64 from https://sourceforge.net/projects/mingw-w64/?source=dlp
+		
+	a.	Right click on this file once it's downloaded, and click "7-Zip", extract.
+	
+	b.	Open the new folder and right click again. Click "extract here"
+	
+	c.	Open 'windows powershell' from the start menu. We're going to be working from this console for a second.
+	
+	d.	Change director to 'C:'... (cd.. until you get to C:'
+	
+	e.	Make a folder named 'sde' in there via the following" "mkdir sde"
+	
+	f.	Copy contects of extracted MinGW files into C:/sde
+		
+		i. 	To install a downloaded toolchain package, just unzip it to a directory of your choice
 				(for example C:\mingw-w64-v2.0.8). (Or whatever version it becomes) Then you need to 
 				add the toolchain executables to PATH. For cmd.exe, this would be:
 					
